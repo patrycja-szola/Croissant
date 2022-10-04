@@ -70,3 +70,14 @@ img {
   text-align: center;
   display: block;
 }
+
+@media (max-width: 576px) {
+  h2,
+  p {
+    text-align: center;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
